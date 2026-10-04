@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff6ff;
+    color: #123047;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    max-width: 450px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(25, 85, 110, 0.18);
+    border: 3px solid #9ddff5;
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #0b4f71;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #365d70;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.result {
+    background-color: #eaf9ff;
+    border: 2px solid #a9e3f7;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 25px;
+    min-height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result p {
+    color: #123047;
+    line-height: 1.6;
+}
+
+.result .excellent {
+    color: #087830;
+    font-weight: bold;
+}
+
+.result .passed {
+    color: #075f91;
+    font-weight: bold;
+}
+
+.result .failed {
+    color: #a32929;
+    font-weight: bold;
+}
+
+.result .invalid {
+    color: #8a5200;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 12px;
+
+    background-color: #168fc1;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0b719d;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}

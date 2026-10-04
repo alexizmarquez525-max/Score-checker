@@ -53,7 +53,7 @@ function evaluateScore(score) {
 function startProgram() {
 
     // Welcome message
-    alert("Welcome to the Student Score Checker! 🩵");
+    alert("Welcome to the Student Score Checker!");
 
     // Ask for the student's name
     let name = prompt("Please enter your name:");
@@ -62,7 +62,7 @@ function startProgram() {
     if (name === null || name.trim() === "") {
         document.getElementById("result").innerHTML = `
             <p class="invalid">
-                ❌ Invalid input: Please enter your name.
+                Invalid input: Please enter your name.
             </p>
         `;
         return;
@@ -82,7 +82,7 @@ function startProgram() {
     if (!proceed) {
         document.getElementById("result").innerHTML = `
             <p>
-                😊 No problem, <strong>${name.trim()}</strong>!
+                No problem, <strong>${name.trim()}</strong>!
                 <br>
                 You chose not to continue.
             </p>
@@ -96,7 +96,7 @@ function startProgram() {
     // Display the final result
     document.getElementById("result").innerHTML = `
         <p>
-            Hello, <strong>${name.trim()}</strong>! 🩵
+            Hello, <strong>${name.trim()}</strong>!
             <br><br>
             Score: <strong>${score}</strong>
             <br>
